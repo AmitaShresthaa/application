@@ -1,0 +1,86 @@
+/* External Css */
+body{
+    background-image: url(gymbg.jpg);
+    background-position: left top;
+    background-size: 1300px 2000px;
+ 
+
+}
+p{
+    color: rgb(229, 224, 212);
+    font-weight: 600;
+}
+
+h1{
+    color:rgb(150, 178, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+h2{
+    color: rgb(239, 208, 107);;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic, bold;
+    font-weight: 700
+    ;
+}
+h3{
+    color:rgb(231, 207, 98);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+h4{
+    color:rgb(150, 178, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+h5{
+    color:rgb(150, 178, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+
+select{
+    background-color: rgb(199, 206, 202);
+}
+
+input{
+    background-color: rgb(201, 217, 208);
+}
+.ec{
+    font-size: larger;
+    font-style: bold;
+    padding-block: 20px;
+    padding-inline: 20px;
+    padding: 10px;
+}
+
+.aDetail{
+    
+    padding: 20px;
+}
+
+.submit {
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #073323;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #f4bc4c;
+  }
+  
+.submit:hover {background-color: hsl(67, 39%, 40%)}
+
+.submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #e5bf68;
+  transform: translateY(4px);
+}
